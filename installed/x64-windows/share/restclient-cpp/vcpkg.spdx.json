@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/restclient-cpp-x64-windows-2022-02-09-641ad3a9-b36e-4bf6-b947-361677a166d9",
+  "name": "restclient-cpp:x64-windows@2022-02-09 4825263f919de1f5d5f44f5760bffe7b6d396510e043b390ba7b4d5461e87be7",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-7d353e869753e5609a1f1a057df3db8fd356e49d"
+    ],
+    "created": "2024-03-29T16:08:11Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "restclient-cpp",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2022-02-09",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/restclient-cpp",
+      "homepage": "https://code.mrtazz.com/restclient-cpp/",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Simple REST client for C++. It wraps libcurl for HTTP requests.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "restclient-cpp:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "4825263f919de1f5d5f44f5760bffe7b6d396510e043b390ba7b4d5461e87be7",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "mrtazz/restclient-cpp",
+      "downloadLocation": "git+https://github.com/mrtazz/restclient-cpp@b782bd26539a3d1a8edcb6d8a3493b111f8fac66",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "992b2c067c7b672432a202fea6b5263ff51ca77facace5078077e77e57390d3ddcb99e0e20ad1a1595612efbb625d34f4d2cd8c4a2ac4bb33e3f9d5d28c2c579"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./E:/src/vcpkg/ports/restclient-cpp/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6ba9a95046d510426b6bc8c49b77121bc0d08c9236a3068fbd8ae1cdbd027141"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./E:/src/vcpkg/ports/restclient-cpp/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1df166c52c6bc00453269f7e61b8e1566a6c090b8eaab5d790c7d8a602d10cf4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
